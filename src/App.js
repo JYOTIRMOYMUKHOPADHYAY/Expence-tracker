@@ -2,9 +2,10 @@ import './App.css';
 import ExpenseItem from './components/ExpenseItem'
 function App() {
   return (
-    <div className="App">
-     <ExpenseItem />
-    </div>
+    <div>
+    <h2>Let's get started!</h2>
+    <ExpenseItem/>
+  </div>
   );
 }
 
